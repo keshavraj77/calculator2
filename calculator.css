@@ -35,7 +35,7 @@
 }
 
 #displaydiv {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -45,12 +45,14 @@
     min-height: 100px;
     border-radius: 6px;
     background-color: lightcyan;
-    margin-bottom: 10px;
+    margin-bottom: 10px; 
 }
-
 #displaydiv p {
     margin: 0.5rem;
     vertical-align: text-bottom;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 #buttons-container {
